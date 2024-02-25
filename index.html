@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MEME SLOT MACHINE!😎</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Ranchers&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1 class="page-title"><span class="title slot">M-e-m-e</span><span id="ws-hack">-</span><span id="title slot">S-l-o-t</span> <span id="ws-hack">-</span><span class="title machine">M-a-c-h-i-n-e</span></h1>
+
+	<div class="game-box">
+		<div id="try-your-luck">TRY  YOUR  LUCK!</div>
+		<div class="slot-machine">
+			<div class="grid-container">
+				<div class="slot s1">
+					<img src="img/meme1.jpg" alt="Icon 1" class="icon" id="icon-1">
+					<img src="img/meme2.jpg" alt="Icon 2" class="icon" id="icon-2">
+                    <img src="img/meme3.jpg" alt="Icon 3" class="icon" id="icon-3">
+                    <img src="img/meme4.jpg" alt="Icon 4" class="icon" id="icon-4">
+                    <img src="img/meme5.webp" alt="Icon 5" class="icon" id="icon-5">
+                    <img src="img/meme6.jpg" alt="Icon 6" class="icon" id="icon-6">
+                    <img src="img/meme7.webp" alt="Icon 7" class="icon" id="icon-7">
+					
+				</div>
+				<div class="slot s2">
+					<img src="img/meme1.jpg" alt="Icon 1" class="icon" id="icon-1">
+					<img src="img/meme2.jpg" alt="Icon 2" class="icon" id="icon-2">
+                    <img src="img/meme3.jpg" alt="Icon 3" class="icon" id="icon-3">
+                    <img src="img/meme4.jpg" alt="Icon 4" class="icon" id="icon-4">
+                    <img src="img/meme5.webp" alt="Icon 5" class="icon" id="icon-5">
+                    <img src="img/meme6.jpg" alt="Icon 6" class="icon" id="icon-6">
+                    <img src="img/meme7.webp" alt="Icon 7" class="icon" id="icon-7">
+				</div>
+				<div class="slot s3">
+					<img src="img/meme1.jpg" alt="Icon 1" class="icon" id="icon-1">
+					<img src="img/meme2.jpg" alt="Icon 2" class="icon" id="icon-2">
+                    <img src="img/meme3.jpg" alt="Icon 3" class="icon" id="icon-3">
+                    <img src="img/meme4.jpg" alt="Icon 4" class="icon" id="icon-4">
+                    <img src="img/meme5.webp" alt="Icon 5" class="icon" id="icon-5">
+                    <img src="img/meme6.jpg" alt="Icon 6" class="icon" id="icon-6">
+                    <img src="img/meme7.webp" alt="Icon 7" class="icon" id="icon-7">
+				</div>
+			</div>
+		</div>
+
+		<button id="spin-btn">SPIN!</button>
+	</div>
+
+	<div class="play-again-container">
+		<button id="reset-btn">PLAY AGAIN!</button>
+	</div>
+<br><br><br><br><br><br><br><br>
+	<footer class="footer-container">
+		<div class="game-stats">
+			<h2 class="stat ul" id="stats-title"><a>Game Stats</a></h2>
+
+			<p class="spins stat">
+				<span class="ul">Number of Spins - - -></span> 
+				<span class="number" id="num-spins">.</span>
+			</p>
+
+			<p class="win-spins stat">
+				<span class="ul">Wins - - -></span>
+				<span class="number" id="win-spins">.</span>
+			</p>
+
+			<p class="lose-spins stat">
+				<span class="ul">Loses - - -></span> 
+				<span class="number" id="lose-spins">.</span>
+			</p>
+
+			<p class="most-spins stat">
+				<span class="ul">Most Spins - - -></span> 
+				<span class="number" id="most-spins">.</span>
+			</p>
+
+			<p class="least-spins stat">
+				<span class="ul">Least Spins - - -></span> 
+				<span class="number" id="least-spins">.</span>
+			</p>
+
+            <h2 class="stat ul" ><a onclick="resetLocalStorage()" href="javascript:void(0);">Reset Game Stats</a></h2>
+		</div>
+
+		<p id="author-date">🎰</p>
+	</footer>
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	<script src="script.js"></script>
+</html>
